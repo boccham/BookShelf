@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'simple_form'
-gem 'bootstrap-sass', '~> 3.2.0.2'
+gem "bootstrap-sass", ">= 3.4.1"
 gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'devise-i18n'
