@@ -20,11 +20,5 @@ module SearchBook
       return r if r != self
       where({})
     }
-    
-    scope :search_category, lambda { |keyword|
-      table = Category.arel_table
-      condition = table[:title].matches("%#{keyword}%")
-      where(condition)
-    }
   end
 end
