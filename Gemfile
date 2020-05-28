@@ -6,7 +6,7 @@ gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'devise-i18n'
 gem 'devise-i18n-views'
-gem 'kaminari', '~> 0.17.0'
+gem 'kaminari', '~> 1.2.1'
 gem 'kaminari-bootstrap', '~> 3.0.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
